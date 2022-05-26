@@ -6,3 +6,4 @@
 - 开发软件：[HBuilder](https://www.dcloud.io/hbuilderx.html) (Vs code 也行，但HBuilder为uni-app官方开发IDE) + 小程序开发者工具
 
 ## 说明
+请按照开源项目标准的代码提交流程贡献代码。
