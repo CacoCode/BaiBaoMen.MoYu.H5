@@ -1,0 +1,50 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/index/login",
+			"style": {}
+		},
+		{
+			"path": "pages/index/form",
+			"style": {}
+		},
+		{
+			"path": "pages/index/form-one",
+			"style": {}
+		},
+		{
+			"path": "pages/user/rank",
+			"style": {}
+		},
+		{
+			"path": "pages/user/detail",
+			"style": {}
+		},
+		{
+			"path": "pages/user/rule",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "摸鱼",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"usingComponts": true,
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0
+	}
+
+}

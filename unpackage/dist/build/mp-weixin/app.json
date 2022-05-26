@@ -1,0 +1,24 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/index/login",
+        "pages/index/form",
+        "pages/index/form-one",
+        "pages/user/rank",
+        "pages/user/detail",
+        "pages/user/rule"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarBackgroundColor": "#0081ff",
+        "navigationBarTitleText": "摸鱼",
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+    },
+    "usingComponents": {
+        "user": "/pages/user/home",
+        "home": "/pages/home/index",
+        "cu-custom": "/colorui/components/cu-custom"
+    },
+    "sitemapLocation": "sitemap.json"
+}
